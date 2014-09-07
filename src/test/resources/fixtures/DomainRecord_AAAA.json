@@ -1,0 +1,11 @@
+{
+    "domain_record": {
+        "id": 16,
+        "type": "AAAA",
+        "name": "subdomain",
+        "data": "2001:db8::ff00:42:8329",
+        "priority": null,
+        "port": null,
+        "weight": null
+    }
+}

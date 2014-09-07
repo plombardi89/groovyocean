@@ -1,0 +1,17 @@
+apply plugin: 'groovy'
+apply plugin: 'idea'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'org.codehaus.groovy:groovy-all:2.3.6'
+  compile 'com.squareup.okhttp:okhttp:2.0.0'
+
+  testCompile 'junit:junit:4.11'
+}
+
+task wrapper(type: Wrapper) {
+  gradleVersion = '2.0'
+}

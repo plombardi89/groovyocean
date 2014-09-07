@@ -1,0 +1,29 @@
+!.gitignore
+!LICENSE.txt
+!README.txt
+
+# Operation system specific
+*.DS_Store
+[Tt]humbs.db
+ehthumbs.db
+.directory
+
+# Gradle related
+.gradle/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Build output
+*.class
+*.jar
+!gradle-wrapper.jar
+*.exe
+*.pyc
+target/
+build/
+bin/
+classes/
